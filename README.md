@@ -7,3 +7,9 @@ Steps:-
 3. Read that datat from azure cli #az iot hub monitor-events --hub-name kd-kd-kd --device-id my-dht11
 4. Setting up your Raspberry Pi to subscribe to your Service Bus Topic
 5. Trigger the LED on via using Rpi#2 Service Bus Topic
+
+
+for step4:-
+  4.1 Creating an Azure Service Bus Namespace and adding a Topic & Subscrition to it
+  4.2 Creating Azure Stream Analytics Job
+  4.3 Query editor to segregate and transform messages based on its message properties.
