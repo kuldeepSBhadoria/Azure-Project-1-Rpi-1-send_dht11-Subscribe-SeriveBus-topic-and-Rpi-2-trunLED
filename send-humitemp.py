@@ -28,7 +28,7 @@ def iothub_client_init():
     client = IoTHubDeviceClient.create_from_connection_string(CONNECTION_STRING)
     return client
 
-def iothub_client_telemetry_sample_run():
+def iothub_client_send_data():
 
     try:
         client = iothub_client_init()
@@ -56,6 +56,6 @@ def iothub_client_telemetry_sample_run():
         print ( "IoTHubClient sample stopped" )
 
 if __name__ == '__main__':
-    print ( "IoT Hub Quickstart #1 - Simulated device" )
+    print ( "IoT Hub send data" )
     print ( "Press Ctrl-C to exit" )
-    iothub_client_telemetry_sample_run()
+    iothub_client_send_data()
