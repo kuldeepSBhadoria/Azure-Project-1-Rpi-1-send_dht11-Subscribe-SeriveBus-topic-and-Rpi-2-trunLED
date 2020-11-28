@@ -1,4 +1,4 @@
-# Azure-Project-Rpi-1-senddht11-Rpi-2-trunLEDwhentemphigh-
+# Azure-Project-Rpi-1-Read_and_send_dht11-Rpi-2-trun_LED_when_temphighthan27
 
 Task:- Read sensor data from a deivce(Rpi#1 with dht11) and subscribe to service bus topic and take action on Rpi#2
 Steps:-
